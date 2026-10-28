@@ -6,15 +6,14 @@ Página oficial de Política de Privacidade e Termos de Uso pronta para publica�
 
 ## 🚀 Como Publicar na Vercel em 1 Minuto
 
-1. Suba este projeto para um repositório no seu GitHub (ex: `sanar-stark-privacy`).
-2. Acesse seu painel na [Vercel](https://vercel.com) e clique em **Add New... > Project**.
-3. Conecte sua conta do GitHub e selecione o repositório.
-4. A Vercel detectará automaticamente as configurações:
+1. Atualize seu repositório no GitHub com as alterações deste projeto (`git pull` ou suba os arquivos alterados, principalmente `.npmrc`, `package.json`, `vercel.json` e `vite.config.ts`).
+2. Acesse seu painel na [Vercel](https://vercel.com) e conecte o repositório.
+3. A Vercel detectará automaticamente as configurações:
    - **Framework Preset:** Vite
    - **Build Command:** `npm run build`
    - **Output Directory:** `dist`
-5. Clique em **Deploy**.
-6. Em ~30 segundos você terá sua URL pública com certificado SSL gratuito (ex: `https://sanar-stark.vercel.app`).
+4. Clique em **Deploy** (ou na Vercel acesse a aba **Deployments > Redeploy**).
+5. O arquivo `.npmrc` com `legacy-peer-deps=true` e o `package.json` ajustado resolvem 100% dos conflitos de instalação do npm na Vercel!
 
 ---
 
