@@ -1,0 +1,6 @@
+{
+  "name": "Sanar Stark - Política de Privacidade",
+  "description": "Página oficial de Política de Privacidade e Termos de Uso do aplicativo Sanar Stark - Automação e Inteligência Artificial, em conformidade com as diretrizes do Google Play Console e LGPD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
