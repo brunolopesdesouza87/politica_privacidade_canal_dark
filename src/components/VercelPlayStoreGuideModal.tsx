@@ -127,6 +127,24 @@ export const VercelPlayStoreGuideModal: React.FC<VercelPlayStoreGuideModalProps>
                 </button>
               </div>
             </div>
+
+            <div className="bg-amber-950/20 border border-amber-500/30 rounded-xl p-4 space-y-2 text-xs">
+              <h4 className="font-semibold text-amber-300">
+                ⚠️ Solução para o erro "Command npm install exited with 1":
+              </h4>
+              <p className="text-slate-300">
+                No painel da Vercel, acesse <strong>Settings &gt; General &gt; Build &amp; Development Settings</strong>. Ative o botão <strong>OVERRIDE</strong> no campo <strong>Install Command</strong> e cole:
+              </p>
+              <div className="bg-slate-900 p-2 rounded font-mono text-cyan-300 flex items-center justify-between border border-slate-800">
+                <span>npm install --legacy-peer-deps</span>
+                <button
+                  onClick={() => handleCopy('npm install --legacy-peer-deps')}
+                  className="text-slate-400 hover:text-white"
+                >
+                  <Copy className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            </div>
           </div>
         )}
 
